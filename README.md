@@ -34,4 +34,4 @@ pip install -r path/to/requirements.txt
 
 ## License
 
-Distributed under the GNU AFFERO GENERAL PUBLIC LICENSE v3.0 License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
