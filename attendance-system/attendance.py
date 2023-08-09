@@ -2,6 +2,8 @@ from openpyxl import load_workbook
 import pandas as pd
 import numpy as np
 import datetime
+import msvcrt
+import sys
 
 filename = 'Attendance System.xlsx'
 
@@ -17,7 +19,7 @@ def read(employee_name):
         ws = wb[sheet]
         excel_sheet = pd.read_excel(filename, sheet_name=sheet)
 
-        # Check through every name
+        # Check through every namea
         for names in excel_sheet['Name']:
             # Replace NaN values with empty values
             excel_sheet = excel_sheet.replace(np.nan, '')
