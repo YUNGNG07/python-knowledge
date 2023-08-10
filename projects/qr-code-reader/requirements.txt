@@ -1,4 +1,0 @@
-opencv-python
-qrcode
-pillow
-pyzbar
